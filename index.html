@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Bootsrap 4 Website Layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" style="height: 70px; width: 300px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/background3.png">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Bootsrap</h1>
+                    <h3>Complete Website Layout</h3>        
+                    <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/background.png">
+            </div>
+            <div class="carousel-item">
+                <img src="img/background2.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium voluptate deleniti quia ducimus
+                voluptas? Doloribus similique nisi inventore, mollitia commodi et. Iste, dolorum nisi! Quos maiores mollitia 
+                aperiam quia nemo?</p>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+             </div>
+        </div>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Built with ease.</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque voluptatibus nihil molestias 
+                fugit est necessitatibus, corporis qui ipsum adipisci consequuntur delectus numquam laudantium expedita eum 
+                voluptas nulla dignissimos enim aliquid!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Three Column Section -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-code"></i>
+                <h3>HTML5</h3>
+                <p>Built with the latest version of HTML, HTML5</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fa fa-bold"></i>
+                <h3>BOOTSTRAP</h3>
+                <p>Built with the latest version of Bootstrap, Bootstrap 4</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+                <p>Built with the latest version of CSS, CSS 3</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+
+    <!-- Two Column Section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>If you build it...</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem perferendis hic minus harum doloremque nulla 
+                    voluptate omnis neque, consequuntur exercitationem totam sunt. Maxime at, non iure rem modi aliquam architecto?</p>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cupiditate aperiam deleniti nam sunt, quis quod 
+                    praesentium molestias repudiandae laboriosam recusandae impedit deserunt fugiat esse sapiente, consectetur doloremque 
+                    sint doloribus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iste non odio et perspiciatis sed atque corrupti commodi,
+                    totam aut nesciunt est tenetur ipsum, ex blanditiis neque alias tempore dignissimos.</p>
+                <br>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-lg-6 imgs">
+                <img src="img/laptop.jpg">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+
+    <!-- Fixed Image Background -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed"></div>
+        </div>
+    </figure>
+
+    <!-- Emoji Section -->
+    <button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
+    <div id="emoji" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <img src="img/gifs/bird.gif" class="gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="img/gifs/butterfly.gif" class="gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="img/gifs/owl.gif" class="gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="img/gifs/rabbit.gif" class="gif">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Meet The Team -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Meet the Team</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team1.png">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates quidem dicta fuga impedit.</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team2.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Mary Jo</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates quidem dicta fuga impedit.</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team3.png">
+                    <div class="card-body">
+                        <h4 class="card-title">Pill Ho</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates quidem dicta fuga impedit.</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Two Column Section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>Our Phylosophy</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem perferendis hic minus harum doloremque nulla 
+                    voluptate omnis neque, consequuntur exercitationem totam sunt. Maxime at, non iure rem modi aliquam architecto?</p>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita cupiditate aperiam deleniti nam sunt, quis quod 
+                    praesentium molestias repudiandae laboriosam recusandae impedit deserunt fugiat esse sapiente, consectetur doloremque 
+                    sint doloribus?</p>
+                <br>
+
+                </div>
+            <div class="col-lg-6 boy">
+                <img src="img/boy.jpg">
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-4">
+    <!-- Connect -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Contact</h5>
+                    <hr class="light">
+                    <p>555-555-555</p>
+                    <p>email@myemail.com</p>
+                    <p>100 street name</p>
+                    <p>City, State, 0000</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday to Friday : 9am - 5pm</p>
+                    <p>Saturday : 10am - 4pm</p>
+                    <p>Sunday : Closed</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Service Area</h5>
+                    <hr class="light">
+                    <p>City, State, 0000</p>
+                    <p>City, State, 0000</p>
+                    <p>City, State, 0000</p>
+                    <p>City, State, 0000</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; mymilan.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
